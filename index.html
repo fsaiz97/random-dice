@@ -9,11 +9,28 @@
     </head>
     <body>
         <div id="shape">
-            <h1 id="opponent-score">0</h1>
+            <div id="scores">
+                <h2 id="player1">Player 1 score: </h2>
+                <h2 id="player2">Player 2 score: </h2>
+                <form>
+                    <label for="player1">
+                        <strong>
+                            Player 1:
+                        </strong>
+                    </label>
+                    <input type="text" class="guess" id="guess-1">
+                    <label for="player2">
+                        <strong>
+                            Player 2:
+                        </strong>
+                    </label>
+                    <input type="text" class="guess" id="guess-2">
+                    
+                  </form> 
+            </div>
             <img id="dice">
             <br>
             <img id="run-button">
-            <h1 id="your-score">0</h1>
         </div>
         <div id="results">
             <p class="inline" id="first">--</p>

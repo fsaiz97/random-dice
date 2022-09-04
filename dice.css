@@ -4,7 +4,7 @@ body {
     padding: 20px;
 }
 
-#opponent-score {
+#player1 {
     padding-top: 10px;
 }
 
@@ -13,6 +13,12 @@ body {
     margin: 0 auto;
     width: 360px;
     border-radius: 20px;
+}
+
+.guess {
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #dice {
@@ -24,6 +30,9 @@ body {
     border-radius: 10px;
 }
 
+#scores{
+    padding-bottom: 10px;
+}
 
 #run-button {
     width: 180px;
@@ -31,6 +40,7 @@ body {
     /*background-color: blanchedalmond;
     border: 2px solid gray;*/
     margin: 0 auto;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
@@ -43,6 +53,7 @@ body {
     width: 250px;
     height: 30px;
     margin: 0 auto;
+    margin-top: 10px;
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
