@@ -1,0 +1,21 @@
+{
+  "name": "random-dice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsaiz97/random-dice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsaiz97/random-dice/issues"
+  },
+  "homepage": "https://github.com/fsaiz97/random-dice#readme"
+}
