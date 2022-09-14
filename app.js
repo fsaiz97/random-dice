@@ -6,4 +6,7 @@ const server = http.createServer((request, response) => {
   fs.createReadStream('index.html').pipe(response)
 })
 
-server.listen(process.env.PORT || 5000)
+let port = process.env.PORT || 5000;
+server.listen(port);
+
+console.log(`Server running at http://localhost:${port}`);
